@@ -8,4 +8,8 @@
     <Folder Include="Concrete\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerceBackend.Entities\ECommerceBackend.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

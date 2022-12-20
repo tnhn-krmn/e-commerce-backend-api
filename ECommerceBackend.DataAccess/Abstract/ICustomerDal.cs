@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace ECommerceBackend.DataAccess.Abstract
 {
     public interface ICustomerDal : IEntityRepository<Customer>
-    { 
-
+    {
+        
     }
 }
