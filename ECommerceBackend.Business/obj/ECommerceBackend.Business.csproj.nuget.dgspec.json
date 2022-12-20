@@ -1,20 +1,88 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Business\\ECommerceBackend.Business.csproj": {}
+    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Business\\ECommerceBackend.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Business\\ECommerceBackend.Business.csproj": {
+    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Business\\ECommerceBackend.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Business\\ECommerceBackend.Business.csproj",
+        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Business\\ECommerceBackend.Business.csproj",
         "projectName": "ECommerceBackend.Business",
-        "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Business\\ECommerceBackend.Business.csproj",
-        "packagesPath": "C:\\Users\\tunah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Business\\obj\\",
+        "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Business\\ECommerceBackend.Business.csproj",
+        "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\tunah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj"
+              },
+              "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {
+                "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj",
+        "projectName": "ECommerceBackend.Core",
+        "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj",
+        "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +123,131 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj",
+        "projectName": "ECommerceBackend.DataAccess",
+        "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {
+                "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj",
+        "projectName": "ECommerceBackend.Entities",
+        "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj",
+        "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj": {
+                "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
