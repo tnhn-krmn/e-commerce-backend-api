@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceBackend.Entities", "ECommerceBackend.Entities\ECommerceBackend.Entities.csproj", "{60293C23-1EA0-4FE2-81BF-72238A3FC813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceBackend.Entities", "ECommerceBackend.Entities\ECommerceBackend.Entities.csproj", "{60293C23-1EA0-4FE2-81BF-72238A3FC813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceBackend.DataAccess", "ECommerceBackend.DataAccess\ECommerceBackend.DataAccess.csproj", "{143AFB1C-5893-46F1-BA85-8E6F7BB6FB9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceBackend.DataAccess", "ECommerceBackend.DataAccess\ECommerceBackend.DataAccess.csproj", "{143AFB1C-5893-46F1-BA85-8E6F7BB6FB9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceBackend.Core", "ECommerceBackend.Core\ECommerceBackend.Core.csproj", "{BE09DA71-1460-416E-9E44-3A284743E38B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceBackend.Core", "ECommerceBackend.Core\ECommerceBackend.Core.csproj", "{BE09DA71-1460-416E-9E44-3A284743E38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceBackend.Business", "ECommerceBackend.Business\ECommerceBackend.Business.csproj", "{4A756D50-9E5C-42EC-800F-AED8917F9D93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{BE09DA71-1460-416E-9E44-3A284743E38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE09DA71-1460-416E-9E44-3A284743E38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE09DA71-1460-416E-9E44-3A284743E38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A756D50-9E5C-42EC-800F-AED8917F9D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A756D50-9E5C-42EC-800F-AED8917F9D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A756D50-9E5C-42EC-800F-AED8917F9D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A756D50-9E5C-42EC-800F-AED8917F9D93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
