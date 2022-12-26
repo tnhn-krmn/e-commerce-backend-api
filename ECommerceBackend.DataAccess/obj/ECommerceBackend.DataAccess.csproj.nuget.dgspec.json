@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj": {}
+    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj": {
+    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj",
+        "projectUniqueName": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj",
         "projectName": "ECommerceBackend.Core",
-        "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj",
-        "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\obj\\",
+        "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj",
+        "packagesPath": "C:\\Users\\tunah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tunah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,6 +39,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,24 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj": {
+    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj",
         "projectName": "ECommerceBackend.DataAccess",
-        "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.DataAccess\\ECommerceBackend.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\tunah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tunah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +99,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {
-                "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj"
+              "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {
+                "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj"
               }
             }
           }
@@ -104,6 +114,26 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Diagnostics.Tools": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -120,24 +150,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {
+    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj",
         "projectName": "ECommerceBackend.Entities",
-        "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj",
-        "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\obj\\",
+        "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj",
+        "packagesPath": "C:\\Users\\tunah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tunah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -151,8 +178,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj": {
-                "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj"
+              "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj": {
+                "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\.NET\\ECommerceBackendApi\\ECommerceBackend\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj"
               }
             }
           }
@@ -182,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

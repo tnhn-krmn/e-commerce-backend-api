@@ -1,4 +1,5 @@
-﻿using ECommerceBackend.Entities.Concrete;
+﻿using ECommerceBackend.Core.Utilities.Results;
+using ECommerceBackend.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,10 @@ namespace ECommerceBackend.Business.Abstract
 {
     public interface ICustomerService
     {
-        void Add(Customer customer);
+        IResult Add(Customer customer);
+        IResult Delete(Customer customer);
+        IResult Update(Customer customer);
         Customer GetByMail(string email);
+        IDataResult<List<Customer>> GetList();
     }
 }

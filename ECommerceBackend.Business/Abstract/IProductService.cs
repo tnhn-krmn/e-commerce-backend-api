@@ -12,7 +12,7 @@ namespace ECommerceBackend.Business.Abstract
     {
         IDataResult<Product> GetById(int productId);
         IDataResult<List<Product>> GetList();
-        IDataResult<List<Product>> GetListByCategory(int categoryId);
+        IDataResult<List<Product>> GetListByCategoryId(int categoryId);
         IResult Add(Product product);
         IResult Delete(Product product);
         IResult Update(Product product);

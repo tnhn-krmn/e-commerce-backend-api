@@ -15,12 +15,10 @@ namespace ECommerceBackend.Business.Concrete
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;
-        private ICategoryService _categoryService;
 
-        public ProductManager(IProductDal productDal, ICategoryService categoryService)
+        public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
-            _categoryService = categoryService;
         }
 
         public IDataResult<Product> GetById(int productId)
@@ -30,10 +28,14 @@ namespace ECommerceBackend.Business.Concrete
 
         public IDataResult<List<Product>> GetList()
         {
-            return new SuccessDataResult<List<Product>>(_productDal.GetList().ToList());
+            if (DateTime.Now.Hour == 10)
+            {
+                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<Product>>(_productDal.GetList(), Messages.ProductsListed);
         }
 
-        public IDataResult<List<Product>> GetListByCategory(int categoryId)
+        public IDataResult<List<Product>> GetListByCategoryId(int categoryId)
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetList(p => p.CategoryId == categoryId).ToList());
         }
@@ -41,7 +43,10 @@ namespace ECommerceBackend.Business.Concrete
 
         public IResult Add(Product product)
         {
-           
+            if (product.Name.Length == 2)
+            {
+                return new ErrorResult(Messages.ProductNameInvalid);
+            }
             _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
         }

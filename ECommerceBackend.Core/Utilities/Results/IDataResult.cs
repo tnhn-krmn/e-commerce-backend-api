@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECommerceBackend.Core.Utilities.Results
 {
-    public interface IDataResult<out T> : IResult
+    public interface IDataResult<T> : IResult
     {
         T Data { get; }
     }

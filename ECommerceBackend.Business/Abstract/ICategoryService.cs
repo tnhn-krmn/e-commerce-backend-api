@@ -11,5 +11,8 @@ namespace ECommerceBackend.Business.Abstract
     public interface ICategoryService
     {
         IDataResult<List<Category>> GetList();
+        IResult Add(Category category);
+        IResult Delete(Category category);
+        IResult Update(Category category);
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ECommerceBackend.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,8 @@ namespace ECommerceBackend.Business.Constants
         public static string ProductAdded = "Ürün başarıyla eklendi";
         public static string ProductDeleted = "Ürün başarıyla silindi";
         public static string ProductUpdated = "Ürün başarıyla güncellendi";
+        public static string CategoryUpdated = "Kategori başarıyla güncellendi";
+        public static string ProductNameInvalid = "Ürün adı geçersiz";
 
         public static string UserNotFound = "Kullanıcı bulunamadı";
         public static string PasswordError = "Şifre hatalı";
@@ -21,5 +24,13 @@ namespace ECommerceBackend.Business.Constants
 
         public static string AuthorizationDenied = "Yetkiniz yok";
         public static string ProductNameAlreadyExists = "Ürün ismi zaten mevcut";
+        public static string ProductsListed = "Ürünler listelendi";
+
+        public static string MaintenanceTime = "Sistem bakımda";
+
+        public static string CategoryDeleted = "Kategori Silindi";
+        public static string CustomerAdded = "Müşteri Eklendi";
+        public static string CustomerDeleted = "Müşteri Silindi";
+        public static string CustomerUpdated = "Müşteri Güncellendi";
     }
 }
