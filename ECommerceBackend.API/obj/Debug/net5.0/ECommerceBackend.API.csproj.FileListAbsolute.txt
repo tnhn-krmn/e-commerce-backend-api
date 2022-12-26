@@ -62,3 +62,8 @@ C:\Users\tunah\OneDrive\Masaüstü\.NET\ECommerceBackendApi\ECommerceBackend\ECo
 C:\Users\tunah\OneDrive\Masaüstü\.NET\ECommerceBackendApi\ECommerceBackend\ECommerceBackend.API\obj\Debug\net5.0\ECommerceBackend.API.pdb
 C:\Users\tunah\OneDrive\Masaüstü\.NET\ECommerceBackendApi\ECommerceBackend\ECommerceBackend.API\obj\Debug\net5.0\ECommerceBackend.API.genruntimeconfig.cache
 C:\Users\tunah\OneDrive\Masaüstü\.NET\ECommerceBackendApi\ECommerceBackend\ECommerceBackend.API\obj\Debug\net5.0\ref\ECommerceBackend.API.dll
+C:\Users\tunah\OneDrive\Masaüstü\.NET\ECommerceBackendApi\ECommerceBackend\ECommerceBackend.API\bin\Debug\net5.0\Autofac.dll
+C:\Users\tunah\OneDrive\Masaüstü\.NET\ECommerceBackendApi\ECommerceBackend\ECommerceBackend.API\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\tunah\OneDrive\Masaüstü\.NET\ECommerceBackendApi\ECommerceBackend\ECommerceBackend.API\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\tunah\OneDrive\Masaüstü\.NET\ECommerceBackendApi\ECommerceBackend\ECommerceBackend.API\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\tunah\OneDrive\Masaüstü\.NET\ECommerceBackendApi\ECommerceBackend\ECommerceBackend.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
