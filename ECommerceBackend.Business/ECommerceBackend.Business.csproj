@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerceBackend.DataAccess\ECommerceBackend.DataAccess.csproj" />
+    <ProjectReference Include="..\ECommerceBackend.Entities\ECommerceBackend.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
