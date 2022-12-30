@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {}
+    "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj": {
+    "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj",
+        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj",
         "projectName": "ECommerceBackend.Core",
-        "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj",
+        "projectPath": "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj",
         "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\obj\\",
+        "outputPath": "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,44 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {
+    "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj",
         "projectName": "ECommerceBackend.Entities",
-        "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj",
+        "projectPath": "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Entities\\ECommerceBackend.Entities.csproj",
         "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Entities\\obj\\",
+        "outputPath": "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -89,8 +127,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj": {
-                "projectPath": "C:\\Users\\yasin\\Desktop\\e-commerce-backend-api-main\\e-commerce-backend-api-main\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj"
+              "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj": {
+                "projectPath": "C:\\Users\\yasin\\Desktop\\Git\\e-commerce-backend-api\\ECommerceBackend.Core\\ECommerceBackend.Core.csproj"
               }
             }
           }
