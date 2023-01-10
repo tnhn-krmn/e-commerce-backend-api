@@ -1,5 +1,8 @@
 using ECommerceBackend.Business.Abstract;
 using ECommerceBackend.Business.Concrete;
+using ECommerceBackend.Core.DependencyResolvers;
+using ECommerceBackend.Core.Extensions;
+using ECommerceBackend.Core.Utilities.IoC;
 using ECommerceBackend.DataAccess.Abstract;
 using ECommerceBackend.DataAccess.Concrete.EntityFramework;
 using Microsoft.AspNetCore.Builder;
@@ -50,6 +53,11 @@ namespace ECommerceBackend.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ECommerceBackend.API", Version = "v1" });
             });
+
+            services.AddDependencyResolvers(new ICoreModule[]
+           {
+                new CoreModule(),
+           });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -65,7 +73,7 @@ namespace ECommerceBackend.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
